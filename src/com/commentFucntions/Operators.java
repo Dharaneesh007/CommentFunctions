@@ -33,8 +33,6 @@ public class Operators {
         int f = 0;
 
         for (int i = 0; i < len; ) {
-            //System.out.println("index = " + i);
-            //System.out.println("code = " + k[i]);
             switch (k[i]) {
                 case "+" -> {
                     n[j] += 1;
